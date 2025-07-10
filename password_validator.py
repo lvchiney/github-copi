@@ -32,7 +32,7 @@ def password_validator(password):
     return True
 
 
-print(password_validator("Valid1@Password"))  # Should return True
-print(password_validator("invalidpassword"))  # Should raise ValueError
-print(password_validator("Short1!"))  # Should raise ValueError
-print(password_validator("NoSpecialChar1"))  # Should raise ValueError  
+# print(password_validator("Valid1@Password"))  # Should return True
+# print(password_validator("invalidpassword"))  # Should raise ValueError
+# print(password_validator("Short1!"))  # Should raise ValueError
+# print(password_validator("NoSpecialChar1"))  # Should raise ValueError  
