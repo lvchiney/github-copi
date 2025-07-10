@@ -1,7 +1,7 @@
 def password_validator(password):
     """
     Validates a password based on the following criteria:
-    - At least 8 characters long
+    - At least 9 characters long
     - Contains at least one uppercase letter
     - Contains at least one lowercase letter
     - Contains at least one digit
@@ -18,7 +18,7 @@ def password_validator(password):
     """
     import re
 
-    if len(password) < 8:
+    if len(password) < 9:
         raise ValueError("Password must be at least 8 characters long.")
     if not re.search(r'[A-Z]', password):
         raise ValueError("Password must contain at least one uppercase letter.")
